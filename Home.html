@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTIONMAX DESIGNING INSTITUTE  </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="Home.css">
+</head>
+<body>
+
+   
+ <div class="header-wrapper">
+        <div class="top-bar">
+            <span><i class="fas fa-envelope"></i> motionmax.institute@gmail.com</span>
+            <span><i class="fas fa-phone"></i>  9702642019</span>
+        </div>
+
+        <nav class="navbar">
+           <a href="Home.html" class="logo">
+    <img src="img/logo.png" alt="MOTIONMAX Logo">
+</a>
+            <div class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="Home.html" class="nav-link active">Home</a></li>
+                <li><a href="About.html" class="nav-link active">About</a></li>
+                <li class="dropdown">
+                    <a href="Courses.html" class="nav-link">Courses <i class="fas fa-chevron-down" style="font-size: 0.7rem;"></i></a>
+                     <ul class="dropdown-menu">
+                        <li>
+                            <a    href="Courses.html" onclick="setCategory('designing', this)">Designing <i class="fas fa-chevron-right" style="float:right; font-size: 0.6rem; margin-top:5px;"></i></a>
+                            <ul class="submenu">
+                                <li><a href="Courses.html" onclick="filterBySub('Graphic Designing')">Graphic Designing</a></li>
+                                <li><a href="Courses.html" onclick="filterBySub('Motion Graphic')">Motion Graphic</a></li>
+                                <li><a href="Courses.html" onclick="filterBySub('Video Editing')">Video Editing</a></li>
+                                <li><a href="Courses.html" onclick="filterBySub('VFX')">VFX</a></li>
+                                <li><a href="Courses.html" onclick="filterBySub('2D Animation')">2D Animation</a></li>
+                                <li><a href="Courses.html" onclick="filterBySub('Adv. 3D Animation')">Adv. 3D Animation</a></li>
+                                <li><a href="Courses.html" onclick="filterBySub('Canva')">Canva</a></li>
+                                <li><a href="Courses.html" onclick="filterBySub('AutoCAD')">AutoCAD</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="Courses.html" onclick="setCategory('programming', this)">Programming <i class="fas fa-chevron-right" style="float:right; font-size: 0.6rem; margin-top:5px;"></i></a>
+                            <ul class="submenu">
+                                <li><a href="Courses.html" onclick="filterBySub('HTML')">HTML</a></li>
+                                <li><a href="Courses.html" onclick="filterBySub('CSS')">CSS</a></li>
+                                <li><a href="Courses.html" onclick="filterBySub('JS')">JavaScript</a></li>
+                                <li><a href="Courses.html" onclick="filterBySub('jQuery')">jQuery</a></li>
+                                <li><a href="Courses.html" onclick="filterBySub('WordPress')">WordPress</a></li>
+                                <li><a href="Courses.html" onclick="filterBySub('Python')">Python</a></li>
+                                <li><a href="Courses.html" onclick="filterBySub('UI / UX')">UI / UX Design</a></li>
+                                <li><a href="Courses.html" onclick="filterBySub('Web Design')">Web Design</a></li>
+                                <li><a href="Courses.html" onclick="filterBySub('AI tools')">AI tools</a></li>
+                                <li><a href="Courses.html" onclick="filterBySub('Hardware & Networking')">Hardware & Networking</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="Courses.html" onclick="setCategory('business', this)">Business & Finance <i class="fas fa-chevron-right" style="float:right; font-size: 0.6rem; margin-top:5px;"></i></a>
+                            <ul class="submenu">
+                                <li><a href="Courses.html" onclick="filterBySub('MS Office')">MS Office</a></li>
+                                 <li><a href="Courses.html" onclick="filterBySub('Adv Excel')">Adv Excel</a></li>
+                                <li><a href="Courses.html" onclick="filterBySub('Tally Prime')">Tally Prime</a></li>
+                                <li><a href="Courses.html" onclick="filterBySub('Adv Tally + GST')">Adv Tally + GST</a></li>
+                                <li><a href="Courses.html" onclick="filterBySub('Data Analysis')">Data Analysis</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                 <li><a href="Studentzone.html" class="nav-link active">Student Zone</a></li>
+                <li><a href="Gallary.html" class="nav-link">Gallery</a></li>
+                <li><a href="Contactus.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <header class="hero">
+        <h1>Design Your Future with MotionMax Institute</h1>
+        <div class="typing-text" id="typewriter">Learn Industry-Ready Skills in Graphic Design, Animation, Web Design & Computer Courses.</div>
+    </header>
+
+   <div class="stats-outer">
+        <div class="stats-section">
+            <div class="stat-item">
+                <i class="fas fa-user-graduate"></i>
+                
+                <p>Alumni Worldwide</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-chalkboard-teacher"></i>
+                
+                <p>Certified Mentors</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-laptop-code"></i>
+                
+                <p>Real Projects</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-award"></i>
+                
+                <p>% Success Rate</p>
+            </div>
+        </div>
+    </div>
+    
+     <div class="offer-container">
+        <div class="offer-card">
+            <div class="offer-text">
+                <span style="background:rgba(255,255,255,0.2); padding:5px 15px; border-radius:20px; font-weight:700; font-size:0.8rem">SPRING SALE 2026</span>
+                <h2>2026 batches are open </h2>
+                <h3>Unlock Specialized "Smart Professional" courses</h3>
+            </div>
+            <a href="https://wa.me/919702642019" class="btn-offer">Claim Offer Now</a>
+        </div>
+    </div>
+
+    <section class="reveal">
+        <h6>Innovation Meets Education</h6>
+        <h2 style="font-size: 2.5rem; margin-bottom: 40px;"> MOTIONMAX DESIGNING INSTITUTE</h2>
+        <div class="features-grid">
+             <div class="">
+              
+                 <img src="img/logo_iso.png" alt="MOTIONMAX Logo" style="height: 170px; margin-bottom: 80px;">
+                
+            </div>
+            <div class="">
+              
+                 <img src="img/mkcl.png" alt="MOTIONMAX Logo" style="height: 160px; margin-bottom: 80px;">
+                
+            </div>
+            <div class="">
+              
+                 <img src="img/ycmou logo.png" alt="MOTIONMAX Logo" style="height: 190px; margin-bottom: 80px;">
+                
+            </div>
+             <div class="">
+              
+                 <img src="img/logo_klic.png" alt="MOTIONMAX Logo" style="height: 135px; margin-bottom: 60px;">
+                
+            </div>
+           
+           
+        </div>
+    </section>
+
+   <section class="reveal" style="background:#0f172a">
+        <div style="text-align: left; margin-bottom: 40px;">
+            <h6 style="color:var(--light-bg); text-transform:uppercase; letter-spacing:2px; font-weight:800">Explore Programs</h6>
+            <h2 style="font-size: 2.5rem; color:var(--light-bg)">Most Popular Courses</h2>
+        </div>
+        <div class="course-wrapper">
+          
+            <div class="course-card">
+              <i class="fa-solid fa-pen-fancy"></i><br><br>
+                <span class="badge">Business & Finance</span><br><br>
+                <h3>Data Analysis</h3>
+                <p style="margin: 15px 0">Learn how to analyze, visualize, and interpret data to support business decisions using industry-relevant tools.</p>
+            </div>
+            <div class="course-card">
+              <i class="fa-solid fa-ruler-horizontal"></i><br><br>
+                <span class="badge">Designing</span><br><br>
+                <h3>Adv. 3D Animation</h3>
+                <p style="margin: 15px 0">Step into the immersive world of 3D animation, modeling, and storytelling. This course takes you from basic 3D tools to creating professional-quality animation for films, games, and commercials.</p>
+            </div>
+            <div class="course-card">
+              <i class="fa-solid fa-palette"></i><br><br>
+                <span class="badge">Designing</span><br><br>
+                <h3>Motion Graphic</h3>
+                <p style="margin: 15px 0">Create animations and videos that tell powerful stories. Learn how to bring still images to life and edit dynamic video content for advertising, entertainment, and digital platforms</p>
+            </div>
+              <div class="course-card">
+              <i class="fas fa-code"></i><br><br>
+                <span class="badge">Programming</span><br><br>
+                <h3>Web Design</h3>
+                <p style="margin: 15px 0">Step into the world of modern website creation and learn how to design responsive, user-friendly websites from scratch.</p>
+            </div>
+             <div class="course-card">
+              <i class="fab fa-python"></i><br><br>
+                <span class="badge">Programming</span><br><br>
+                <h3>Python </h3>
+                <p style="margin: 15px 0">Learn one of the most in-demand programming languages used in web development, data science, and automation</p>
+            </div>
+            <div class="course-card">
+              <i class="fas fa-bezier-curve"></i><br><br>
+                <span class="badge">Design</span><br><br>
+                <h3>UI/UX Design</h3>
+                <p style="margin: 15px 0">Learn how to design beautiful, user-friendly digital experiences for websites and mobile apps.</p>
+            </div>
+        </div>
+    </section>
+
+<section class="reveal" style="background: #f8fafc;">
+        <h6>Google</h6>
+        <h2 style="font-size: 2.5rem; margin-bottom: 20px;">What Our Students Say</h2>
+        <div class="reviews-grid">
+            <div class="review-card">
+                
+                <p>"Best place to learn graphic n video editing course. Good environment and supportive staff."</p>
+                <div class="student-info">
+                    <img src="#" class="student-img" alt="Student">
+                    <div class="student-name">
+                        <h4>Anand kumar Pal</h4>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="review-card">
+                
+                <p>"Best. Decision. Ever! This institute has opened doors to new opportunities! The perfect blend of theory and practice! Loved every minute!."</p>
+                <div class="student-info">
+                    <img src="#" class="student-img" alt="Student">
+                    <div class="student-name">
+                        <h4>Mayur Sawant</h4>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="review-card">
+                
+                <p>"Great institute with skilled faculty, hands-on training, and excellent placement support. The environment is welcoming and perfect for beginners or professionals looking to upgrade their skills in designing. I'm glad I chose this institute—it really boosted my confidence and career prospects."</p>
+                <div class="student-info">
+                    <img src="#" class="student-img" alt="Student">
+                    <div class="student-name">
+                        <h4>Nikhil Dubey</h4>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+ <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                  <a href="Home.html" class="logo">
+                 <img src="img/logo-with-white.png" alt="MOTIONMAX Logo">
+                 </a>
+                <p>MotionMax Designing Institute is a professional computer training institute offering courses from basic computer skills to advanced designing and professional software training. Our goal is to provide practical knowledge, industry-relevant skills, and career-oriented education to help students grow in the digital world.</p>
+                <div style="margin-top: 25px; display: flex; gap: 15px;">
+                    <a href="https://facebook.com/MotionMax Designing Institute" class="social-icon facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/motionmax_2025" class="social-icon instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://youtube.com/@MotionMax_2025" class="social-icon youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://wa.me/919702642019" style="position:fixed; bottom:40px; left:20px; background:#25d366; color:white; border-radius:50%; width:60px; height:60px; display:flex; justify-content:center; align-items:center; font-size:30px; box-shadow: 2px 2px 10px rgba(0,0,0,0.3); z-index:10000;" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Courses</h4>
+                <ul>
+                    <li><a href="Courses.html">Ms office </a></li>
+                    <li><a href="Courses.html">Advanced Excel</a></li>
+                    <li><a href="Courses.html">Tally with GST</a></li>
+                    <li><a href="Courses.html"> Graphic Designing </a></li>
+                    <li><a href="Courses.html"> Web Designing </a></li>
+                    <li><a href="Courses.html">Programming Courses</a></li>
+                    <li><a href="Courses.html">Canva & AI Tools </a></li>
+                    <li><a href="Courses.html">Digital Skills Training</a></li>
+                   
+                    
+                </ul>
+            </div>
+             <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                     <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="Courses.html">Courses</a></li>
+                    <li><a href="Gallary.html">Gallery</a></li>
+                    <li><a href="Contactus.html">Contact</a></li>
+                    <li><a href="Privacy policy.html">Privacy policy</a></li>
+                    <li><a href="Terms-Conditions.html">Terms-Conditions</a></li>
+                    
+                </ul>
+            </div>
+             <div class="footer-col">
+                <h4>Contact us</h4>
+                <ul>
+                    <h4>📍 MotionMax Designing Institute</h4>
+                    <h5>Address : Shop No. 3, Dubey Chawl No. 1, Shyam Nagar, Nr Saibaba Mandir, Jogeshwari East, Mumbai 400 060</h5><br>
+                    <h5>📞 Phone: 9702642019</h5>
+                     <span><i class="fas fa-envelope"></i><a href="mailto:motionmax.institute@gmail.com?subject=Inquiry&body=Hello,%20I%20have%20a%20question."></i>motionmax.institute@gmail.com</a></a></span>
+                </ul>
+            </div>
+            
+        </div>
+        <div style="text-align: center; margin-top: 60px; padding-top: 30px; border-top: 1px solid #1e293b; font-size: 0.8rem;">
+            &copy; 2026 MOTIONMAX DESIGNING INSTITUTE. All Rights Reserved.
+        </div>
+    </footer>
+
+
+
+  <script src="Home.js"></script>
+</body>
+</html>
