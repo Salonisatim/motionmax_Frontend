@@ -146,11 +146,13 @@
         }
 
         /* --- HERO & CONTROLS --- */
-        .hero { 
-            background: radial-gradient(circle at top right, #1e293b, #0f172a); 
-            color: white; 
-            padding: 100px 5% 140px; 
-            text-align: center; 
+ .hero { 
+         background: linear-gradient(rgba(15, 23, 42, 0), rgba(15, 23, 42, 0)), url('https://ik.imagekit.io/motionmax25/background/bg2.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 90px 5%;
+            text-align: center;
+            color: white;
         }
         .hero h1 { 
             font-size: clamp(2.2rem, 5vw, 3.8rem); 
