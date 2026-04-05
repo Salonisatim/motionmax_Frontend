@@ -152,10 +152,10 @@
 
         /* --- GALLERY HERO --- */
         .gallery-hero {
-            background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url('https://images.unsplash.com/photo-1492691523567-6170f0295dbd?auto=format&fit=crop&w=1350&q=80');
+            background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url('https://ik.imagekit.io/motionmax25/background/bg2.jpg');
             background-size: cover;
             background-position: center;
-            padding: 80px 5%;
+            padding: 90px 5%;
             text-align: center;
             color: white;
         }
